@@ -1,0 +1,138 @@
+@media screen  and (max-width:576px){
+    
+
+    nav #nav-menu {
+        color: #000;
+    }
+
+
+    ul.active {
+        width: 50%;
+        height: 80vh;;
+        background-color: rgb(187, 228, 231);
+        position:absolute;
+        top: 10vh;
+        left: 0;
+        display:block;
+        z-index:1000;
+
+    }
+
+    ul li{
+       display: grid;
+       grid-template-columns: repeat(1,1fr);
+       text-align: center;
+       gap: 3rem;
+    }
+    ul a{
+        padding: 30px;
+    }
+    ul a:hover{
+        font-size: 20px;
+        color: rgb(243, 8, 20);
+    }
+    main {
+        height: 50vh;
+    }
+  
+    main .container{
+       position: relative;
+       top:0;
+       margin-left: 20%;
+    }
+
+    main  .container p {
+        border: 1px solid #000;
+        border-radius: 30px 5px 30px 5px;
+        padding: 8px  40px;
+        background-color: rgb(37, 4, 4);
+        color: #fff;
+        text-align: center;
+    }
+
+
+    section{
+        width: 100%;
+        position: relative;
+        top: -80vh;
+    }
+    section .container{
+        margin-top: 0;
+        width: 80%;
+        height: 100vh;
+        margin: 100% auto;
+        display: grid;
+        grid-template-columns: repeat(1,1gr);
+
+    }
+    section .iteam-1{
+        width: 80%;
+        margin: auto;
+    }
+    section .iteam-1  img{ 
+        width: 150px;
+        height: 150px;
+    }
+
+    section .iteam-1 .text{
+        width: 100%;
+    }
+    section .div{
+        position: absolute;
+    }
+    section .chenge{
+        margin-right: 5%;
+    }
+    section .chenge i{
+        position:absolute;
+        left: 55%;
+        border: 1px solid rgb(75, 10, 10);
+        background-color: #fff;
+    }
+    section .chenge .btn {
+        padding: 5px 50px;
+        font-size: 20px;
+    }
+
+     #women {
+        width: 45%;
+        position: relative;
+        top:15vh; 
+    }
+    #women .liner-rad{
+        border-radius: 30px 5px 30px 5px;
+        background-color: rgb(37, 4, 4);
+        box-shadow: 0px 20px 20px rgba(0,0,0,0.6);
+        width: 100%;
+    }
+    #women p{
+       color: #fff;
+       text-align: center; 
+    }
+    #kids {
+        width: 45%;
+        position: relative;
+        top: -10vh;
+        left: 0;
+    }
+
+
+
+     footer,#col {
+         position: relative;
+         top: 5vh;
+     }
+
+    #col {
+        gap: 3rem;
+     }
+     #col img{
+         width: 80%;
+         height: auto;
+         margin: 10%;
+     }
+     #payImage {
+        position: relative;
+        top: 115vh;
+     } 
+}

@@ -1,0 +1,158 @@
+nav{
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.2) ;
+}
+
+#call {
+    width: 100%;
+    height: 40vh;
+    margin-top: 5%;
+}
+#call .container {
+    width: 80%;
+    margin: auto;
+    height: 40vh;
+    border: 1px solid #000;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,5fr); 
+}
+#call .iteam {
+  width: 40%;
+  margin: auto;
+}
+#call h3 {
+    padding: 5%;
+}
+#call .iteam i {
+    font-size: 24px;
+    padding: 10px;
+    background-color: #999;
+    border-radius: 50px;
+    margin-left: 20%;
+}
+#call .iteam p{
+    padding: 10px;
+}
+#call .iteam a{
+    
+}
+form{
+    width: 100%;
+    height: 70vh;
+    margin-top: 5%;
+}
+form .container {
+    width: 80%;
+    margin: auto;
+    margin: auto;
+    height: 60vh;
+    border: 1px solid #000;
+    border-radius: 20px;
+}
+form input, textarea {
+    width: 80%;
+    margin: 2%;
+    border-radius: 10px;
+    opacity: 0.5;
+    margin-left: 8%;
+}
+form input{
+    width: 80%;
+    padding: 10px  0;
+}
+form .btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+form .btn .submit, .close {
+    margin:0px  10%;
+    padding: 8px  10%;
+    background-color: #2d11b3;
+    font-size: 18px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+#accaunt{
+    display: none;
+}
+#accaunt.active{
+    display: block;
+}
+
+@media screen and (max-width:576px){
+   body{
+       position: relative;
+   }
+
+   ul.active {
+    width: 50%;
+    height: 80vh;;
+    background-color: rgb(48, 20, 20);
+    position:absolute;
+    top: 10vh;
+    left: 0;
+    display:block;
+    z-index: 500;
+
+    }
+
+    ul li{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    text-align: center;
+    gap: 3rem;
+    }
+    ul a{
+        padding: 30px;
+    }
+    ul a:hover{
+        font-size: 20px;
+        color: red;
+    }
+
+
+   
+    #call {
+        width: 100%;
+        height: 120vh;
+    }
+    #call .container {
+        width: 80%;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 2rem;
+    }
+    form{
+        width: 100%;
+        height: 100vh;
+    }
+    form .container{
+        width: 80%;
+        height: 80vh
+    }
+    form .container input{
+      margin-top: 10%;
+    }
+    form .btn {
+        margin-right: 10%;
+    }
+
+        footer{
+            position: absolute;
+            top: 250vh;
+        }
+        #col{
+            position: absolute;
+            top: 300vh;
+        }
+        #payImage{
+            position: absolute;
+            top: 470vh;
+        }
+        
+
+}
+

@@ -1,0 +1,631 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100%;
+    height: 70px;  
+}
+nav .container {
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+   background-color: rgb(48, 20, 20);
+}
+
+ nav .menu{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .menu i{
+    color: #fff;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 50px;
+   
+}
+nav #nav-menu{
+    display: none;
+}
+nav i{
+    opacity: 0;
+}
+nav li {
+    display: inline;
+    list-style-type: none;
+}
+nav a {
+    padding: 0px 25px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+   
+}
+nav a:hover {
+    font-size: 22px;
+}
+
+nav .search {
+  margin-right: 50px;
+}
+nav .search .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+nav  .search i{
+    opacity: 1;
+    background-color: #000;
+    border: 1px solid #fff;
+    margin: 0px 5%;
+}
+   
+
+
+nav select {
+   margin: 0px 15px;
+   padding: 7px 10px;
+   border-radius: 5px;
+   background-color: rgb(48, 20, 20);
+   border: 2px solod #fff;
+   color: #fff;
+}
+nav select:hover{
+    background-color: #fff;
+    color: rgb(48, 20, 20);
+} 
+
+header {
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+header .container {
+    width: 90%;
+    margin: auto;
+}
+header .iteam {
+    position: absolute;
+    top: 50%;
+    width: 25%;
+}
+header .iteam h1 {
+    font-size: 38px;
+    color: #fff;
+}
+header .iteam p{
+    font-size: 20px;
+    color: #fff;
+    padding: 15px 0px;
+}
+header .iteam input{
+    padding: 10px 30%;
+    border-radius: 5px;
+}
+header .iteam i {
+    opacity: 0;
+}
+header .iteam .btn {
+    position: relative;
+    left: 70%;
+    bottom: 37px;
+    padding: 7px 15px;
+    background-color:rgb(24, 10, 10) ;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main {
+    width: 100%;
+    height: 165vh;
+    position: relative;
+}
+
+main div h1 {
+    text-align: center;
+    padding: 40px 0px;
+}
+#wrap {
+    width:100%;
+    height: 0;
+    position:absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#wrap p{
+    cursor: pointer;
+    margin: 0px 5%;
+    padding:5px 35px;
+    background-color: rgb(24, 10, 10);
+    color: #fff;
+    border-radius: 30px 5px 30px 5px;
+}
+
+
+main .line {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 35px;
+    border: 1px solid #000;
+    border-radius: 30px;
+}
+
+main .container {
+    width: 90%;
+    margin: 5% auto;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);  
+    gap: 0.5rem; 
+}
+
+
+
+main .checked {
+    color:orange;
+}
+
+main .box1 {
+    margin: 5% 0px;
+    width: 80%;
+    background-color: #E7E7E7;
+    border-radius: 5px;
+    margin: 1rem 1rem;
+}
+main .box1 img {
+    width: 250px;
+    height: 250px;
+    margin-left: 2.5%;
+    /* border-radius: 50%; */
+}
+main .box1 h3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .box1 h3, p,span ,button {
+    margin-left: 5%;
+    padding: 5px 0px;
+}
+
+main .box1 .btn {
+    padding: 10px 22%;
+    background-color: rgb(24, 10, 10);
+    color: #fff;
+    margin: 10px;
+    border-radius: 5px;
+
+}
+
+
+#part  p{
+    position: relative;
+    left: 33%;
+    bottom: 250px;
+    font-size: 34px;
+}
+#wrap1, #wrap2,#wrap3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+#wrap1 p,#wrap2 p,#wrap3  p{
+    cursor: pointer;
+    margin: 0px 5%;
+    padding:5px 200px;
+    background-color: rgb(24, 10, 10);
+    color: #fff;
+    border-radius: 30px 5px 30px 5px;
+}
+
+
+#qism2 {
+    width: 100%;
+}
+#qism2 .qism0{
+    width: 90%;
+    margin:5%  auto;
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#qism2 .checked {
+    color:orange;
+}
+
+#qism2 .box1 {
+    margin: 5% 0px;
+    width: 80%;
+    background-color: #E7E7E7;
+    border-radius: 5px;
+}
+
+#qism2  .box1 h3, p,span ,button {
+    margin-left: 5%;
+    padding: 5px 0px;
+}
+#qism2  .box1 img{ 
+    margin: 18% ;
+}
+
+
+#qism2  .box1 .btn {
+    padding: 10px 65px;
+    background-color: rgb(24, 10, 10);
+    color: #fff;
+    margin: 10px;
+    border-radius: 5px;
+}
+#text {
+    width: 100%;
+    height: 60vh;
+    background-color: #F3F3F3;
+}
+#text .container {
+    width: 80%;
+    margin: auto;
+}
+#text h2{
+    padding:5%  0px 5% 5%;
+}
+#text p {
+    font-size: 18px;
+    padding: 10px;
+}
+
+#kids {
+    width: 100%;
+    height: 60vh;
+    margin: 5%  0px ;
+}
+#kids .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+#kids .checked {
+    color:orange;
+}
+#kids .box1 {
+    width: 80%;
+    margin: auto;
+    background-color: #E7E7E7;
+    border-radius: 5px;
+}
+#kids  .box1 h3, p,span ,button {
+    margin-left: 5%;
+    padding: 5px 0px;
+}
+#kids .box1 img{ 
+    margin: 10% ;
+}
+
+
+#kids .box1 .btn {
+    padding: 10px 65px;
+    background-color: rgb(24, 10, 10);
+    color: #fff;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#img {
+    width: 100%;
+    height: 25vh;
+}
+#img .container {
+    width: 80%;
+    margin:5% auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+
+footer{
+    width: 100%;
+    height: 30vh;
+    background-color: rgb(24, 10, 10);
+
+}
+footer .container {
+    width: 80%;
+    margin:auto;
+}
+footer h2{
+    padding-top: 3%;
+    padding-left: 5%;
+}
+footer p{
+    font-size: 18px;
+}
+footer .btn{
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: rgb(24, 10, 10);
+    border:1px solid #fff;
+    color: #fff;
+    font-size: 16px;
+}
+footer .iconc {
+    position:relative;
+    left: 70%;
+    bottom: 50px;
+}
+footer .iconc img {
+    padding: 10px;
+}
+
+#col {
+    width: 100%;
+    height: 50vh;
+    margin: 5% 0px;
+}
+#col .container{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+#col .col-2 {
+    width: 100%;
+    height: 20vh;
+    display: grid;
+    position: relative;
+}
+
+#col .col-2 p{
+    font-size: 18px;
+}
+#col .col-2 .inbtn {
+    display: flex;
+
+}
+#col .col-2 input{
+    border-radius: 5px;
+    opacity: 0.5;
+}
+#col .col-2 .btn {
+    background-color: rgb(24, 10, 10);
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    padding:  5px 20px;  
+}
+#col .centerLine {
+    width: 80%;
+    border:1px solid #000;
+    margin:5% auto;
+}
+#col p, a{
+    padding: 10px;
+    text-decoration: none;
+}
+#col img{
+    padding: 3px;
+}
+
+#payImage {
+   width: 100%;  
+   height: 10vh;
+}
+#payImage .content{
+    width: 30%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 2rem;
+}
+#payImage img {
+    width: 80px;
+    height: 40px
+}
+
+
+
+
+#buy-now-btn {
+    width: 80%;
+    margin: auto;
+    margin-left: 10%;
+    height: 60vh;
+    background-color: rgb(173, 168, 192);
+    position: absolute;
+    top: 150vh;
+    border-radius: 10px;
+    
+}
+#buy-now-btn .container {
+    width: 80%;
+    margin: 2% 5%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+#buy-now-btn i{
+    position: absolute;
+    top: 5%;
+    font-size: 24px;
+}
+#buy-now-btn  img{
+    margin: 5%   0px;
+    margin:0  20%;
+    background-color: #fff;
+}
+#buy-now-btn  .btn-color, .btn-size {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+    margin: 5%;
+}
+#buy-now-btn  .btn-color .btn{
+    width: 80%;
+    padding: 5px;
+    color: #fff;
+}
+#buy-now-btn  .btn-size .btn{
+    width: 80%;
+    padding: 5px;
+    background-color: rgb(49, 44, 44);
+    color: #fff;
+}
+#buy-now-btn .text{
+    margin-top: 10%;
+}
+#buy-now-btn .text h1, p, h4{
+    padding: 2%;
+}
+#buy-now-btn .text .btn{
+    margin: 20%  80%;
+    padding: 10px 45px;
+    background-color: rgb(24, 10, 10);
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+#buy-now-btn.active{
+    display: block;
+}
+#buy-now-btn {
+    display: none;
+}
+.div{
+    width: 60px;
+    height: 30px;
+    border-radius: 30px 5px 30px 5px;
+    margin: auto;
+    border: 1px solid blue;
+    background-color: coral;
+    position: relative;
+    top: 10px;
+    left: 80px;
+    box-shadow: 3px 3px 3px rgb(0,0,0,0.5);
+}
+.div h4 {
+    position: absolute;
+    left: 20%;
+    top: 20%;
+}
+
+#col .col-1 i {
+    padding: 2% 0px;
+}
+
+
+
+#nav-link{
+   opacity: 0;
+}
+
+#accaunt.active{
+    display: block;
+}
+
+
+#accaunt{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(2, 2, 54);
+    position: absolute;
+    top: 0;
+    display: none;
+}
+#accaunt i{
+    font-size: 24px;
+    color: #fff;
+    position: absolute;
+    top: 5%;
+    left: 2%;
+}
+#accaunt .card{
+    width: 30%;
+    margin: auto;
+    align-items: center;
+    height: 70vh;
+    box-shadow: 10px 10px 20px 10px rgba(0,0,0,0.6);
+    border-radius: 20px;
+    background-color: rgb(44, 40, 59);
+    margin-top: 8%;
+}
+#accaunt .container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 1rem;
+   
+   
+}
+#accaunt h2{
+    margin: 5%  auto;
+    font-size: 36px;
+    color: #fff;
+   
+}
+#accaunt label{
+    margin: 0 5%;
+    font-size: 18px;
+    color: #fff;
+}
+#accaunt input{
+    width: 80%;
+    padding: 10px;
+    margin: 0  8%;
+    border-radius: 8px;
+    opacity: 0.5;
+    background-color: #fff;
+   border: 2px solid #fff;
+}
+#accaunt a{
+    margin: 0 auto;
+    color: #fff;
+}
+#accaunt a:hover{
+    font-size: 18px;
+}
+#accaunt .btn {
+    width: 50%;
+    margin: auto;
+    padding: 10px ;
+    background-color: rgb(13, 13, 15);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+#body.active{
+    display: block;
+    background-color: #000;
+}
+
+   
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+

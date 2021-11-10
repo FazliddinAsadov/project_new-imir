@@ -1,0 +1,105 @@
+
+
+
+
+nav .container {
+    background-color:rgb(199, 227, 243);
+} 
+nav  a{
+    color: #000;
+}
+header  {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header .container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 35%;
+    
+}
+header .pH1 {
+    width: 40%;
+}
+header .pH1 p{
+    font-size:20px ;
+    padding: 5%  0px;
+    margin: 0;
+
+}
+header .pH1 h1{
+    font-size:60px ;
+   
+}
+#wrap {
+    margin-top: 5%;
+}
+#wrap p{
+    padding: 5px 45px;
+}
+#men {
+    margin-top: 10%;
+}
+
+#qism2 .box1 img{
+    margin: 8%;
+}
+#kids-end {
+    width: 100%;
+    height: 80vh;
+}
+#kids-end .container{
+    width: 90%;
+    margin:5% auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+}
+#kids-end .container .box1{
+    width: 90%;
+    height: 60vh;
+    background-color: #E7E7E7;
+}
+#kids-end .box1{
+   padding:12%;
+
+}
+#kids-end img{
+    width: 100%;
+    height: auto;
+}
+#kids-end .checked{
+    color: orange;
+}
+#kids-end h3{
+    padding: 2%;
+
+}
+#kids-end .btn {
+    width: 70%;
+    margin: 2%;
+    padding: 10px;
+    background-color: rgb(24, 10, 10);
+    color: #fff;
+}
+
+footer{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#accaunt{
+    display: none;
+}
+#accaunt.active{
+    display: block
+}
+
