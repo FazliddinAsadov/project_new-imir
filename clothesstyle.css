@@ -1,147 +1,140 @@
-
-nav{
-    height: 3vh;
-}
-main{
-   height: 2%;
-   position: relative;
-}
-#men .container{
-    width: 60%;
-    margin-right:15%;
-    position: absolute;
-    top:-20vh;
-    left: 28%;
-
-}
-main  p{
-    cursor: pointer;
-    border-radius: 30px 5px 30px 5px;
-    background-color: rgb(22, 7, 7);
-    padding-left: 25%;
-    margin: 8px;
-    color: #fff;
+main {
+  width: 100%;
+  height: 5vh;
+  position: relative;
 }
 
-section{
-    width: 100%;
-    height: 35vh;
-    margin-top: 5%;
+main .container {
+  width: 70%;
+  margin: auto;
 }
-section .container{
-    width: 90%;
-    margin: auto;
-    height: 35vh;
-    border: 1px solid #000;
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   border-radius: 20px;
-   background-color: rgb(232, 240, 247);
+main p {
+  cursor: pointer;
+  border-radius: 30px 5px 30px 5px;
+  background-color: rgb(22, 7, 7);
+  padding-left: 25%;
+  margin: 8px;
+  color: #fff;
 }
-section i{
-    margin-left: 5%;
+
+section {
+  width: 100%;
+  height: 35vh;
+  margin-top: 5%;
 }
-section .iteam-1{
-   width:25%;
+section .container {
+  width: 90%;
+  margin: auto;
+  height: 35vh;
+  border: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 20px;
+  background-color: rgb(232, 240, 247);
 }
-section .iteam-1 h3, p,span{
-    margin: 2% auto;
+section i {
+  margin-left: 5%;
+}
+section .iteam-1 {
+  width: 25%;
+}
+section .iteam-1 h3,
+p,
+span {
+  margin: 2% auto;
 }
 
 section .iteam-1 .btn {
-    padding: 10px 20%;
-    background-color: rgb(53, 16, 16);
-    color: #fff;
-    font-size: 18px;
-    border-radius: 5px;
-    margin: 0 ;
+  padding: 10px 20%;
+  background-color: rgb(53, 16, 16);
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  margin: 0;
 }
 section .iteam-1 .checked {
-    color: orange;
+  color: orange;
 }
 section img {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;   
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
 }
-footer{
-    margin-top: 10%;
-    height: 30vh;
+footer {
+  margin-top: 10%;
+  height: 30vh;
 }
-#women{
-    width: 20%;
-    margin:5% auto;
+#women {
+  width: 20%;
+  margin: 5% auto;
 }
 
-#women  p{
-    padding: 5px 25px;
-    text-align: center;
+#women p {
+  padding: 5px 25px;
+  text-align: center;
 }
-header  .liner{
-    width: 100%;
-    height: 0;
-    border: 1px solid #000;
-    margin-top: 5%;
-    position: absolute;
-    top: 10%;
-    
+header .liner {
+  width: 100%;
+  height: 0;
+  border: 1px solid #000;
+  margin-top: 5%;
+  position: absolute;
+  top: 10%;
 }
 header .liner-rad {
-    width: 30%;
-    height: 5vh;
-    border: 1px solid #000;
-    border-radius: 20px;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 33%;
-    background-color: #fff;
+  width: 30%;
+  height: 5vh;
+  border: 1px solid #000;
+  border-radius: 20px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 33%;
+  background-color: #fff;
 }
-header b{
-    position: relative;
-    bottom: 5px;
-}
-
-#kids{
-    width: 20%;
-    height: 5vh;
-    margin:5% auto;
+header b {
+  position: relative;
+  bottom: 5px;
 }
 
-#kids p{
-    padding: 5px 25px;
-    text-align: center;
+#kids {
+  width: 20%;
+  height: 5vh;
+  margin: 5% auto;
 }
-  #iconc i {
-     font-size: 24px;
-     background-color: #fff;
-     border: 2px solid #000;
-     padding: 10px;
-     border-radius: 50%;
-     position: absolute;
-     right: 2%;
-     top: 500vh;  
- }
- footer{
-     height: 30vh;
-     position: relative;
+
+#kids p {
+  padding: 5px 25px;
+  text-align: center;
 }
- footer .container{
-     width: 80%;
-     margin: auto;
-     height: 20vh;
+#iconc i {
+  font-size: 24px;
+  background-color: #fff;
+  border: 2px solid #000;
+  padding: 10px;
+  border-radius: 50%;
+  position: absolute;
+  right: 2%;
+  top: 500vh;
+}
+footer {
+  height: 30vh;
+  position: relative;
+}
+footer .container {
+  width: 80%;
+  margin: auto;
+  height: 20vh;
+}
+footer .btn {
+  position: absolute;
+  top: 22vh;
+}
 
- }
- footer .btn{
-    position:absolute;
-    top: 22vh;
- }
-
- #accaunt{
-     display: none;
- }
- #accaunt.active{
-     display: block;
- }
- 
+#accaunt {
+  display: none;
+}
+#accaunt.active {
+  display: block;
+}
