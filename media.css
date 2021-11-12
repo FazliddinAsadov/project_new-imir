@@ -1,44 +1,43 @@
-@media screen  and (max-width: 500px){
-    
-    body{
-        position: relative;
-    }
-    nav{
-        width: 100%;
-        height: 10vh;
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
+@media screen and (max-width: 500px) {
+  body {
+    position: relative;
+  }
+  nav {
+    width: 100%;
+    height: 10vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 
-    nav #moon{
-        opacity: 1;
-        margin-right:5%;
-        padding: 2px;
-        font-size: 14px;
-        position: absolute;
-        right: 2%;
-    }
-    nav .menu img {
-        width: 100px;
-        height: auto;
-    }
-    nav #nav-menu{
-        display: block;
-        opacity: 1;
-        font-size: 18px;
-    }
-    nav select {
-        padding: 3px;
-    }
-    nav .search i{
-        padding: 2px;
-        font-size: 14px;
-    }
-   
-    nav .ul{
-        /* position: absolute;
+  nav #moon {
+    opacity: 1;
+    margin-right: 5%;
+    padding: 2px;
+    font-size: 14px;
+    position: absolute;
+    right: 2%;
+  }
+  nav .menu img {
+    width: 100px;
+    height: auto;
+  }
+  nav #nav-menu {
+    display: block;
+    opacity: 1;
+    font-size: 18px;
+  }
+  nav select {
+    padding: 3px;
+  }
+  nav .search i {
+    padding: 2px;
+    font-size: 14px;
+  }
+
+  nav .ul {
+    /* position: absolute;
         top: 20%;
         width: 100%;
         height: 50vh;;
@@ -47,666 +46,639 @@
         grid-template-columns: repeat(1,1fr);
         text-align: center;
         opacity: 10; */
-       
-        display: none;
-      
-     }
-     ul.active {
-         width: 50%;
-         height: 80vh;;
-         background-color: rgb(48, 20, 20);
-         position:absolute;
-         top: 10vh;
-         left: 0;
-         display:block;
-         z-index: 500;
 
-     }
+    display: none;
+  }
+  ul.active {
+    width: 50%;
+    height: 80vh;
+    background-color: rgb(48, 20, 20);
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    display: block;
+    z-index: 500;
+  }
 
-     ul li{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        text-align: center;
-        gap: 3rem;
-     }
-     ul a{
-         padding: 30px;
-     }
-     ul a:hover{
-         font-size: 20px;
-         color: red;
-     }
+  ul li {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    gap: 3rem;
+  }
+  ul a {
+    padding: 30px;
+  }
+  ul a:hover {
+    font-size: 20px;
+    color: red;
+  }
 
+  header {
+    width: 100%;
+    background-image: url(image/s3.jpg);
+  }
+  header img {
+    display: none;
+  }
+  header .container {
+    width: 80%;
+    margin: auto;
+  }
+  header .iteam h1 {
+    display: none;
+  }
+  header #btn-qidir {
+    display: none;
+  }
+  header .p-teg {
+    display: none;
+  }
+  header .iteam {
+    position: absolute;
+    top: 5%;
+    right: 25%;
+  }
+  header .iteam input {
+    padding: 5px 10px;
+  }
 
+  header .iteam i {
+    opacity: 1;
+    position: absolute;
+    top: 7px;
+    left: 150px;
+    color: rgb(48, 20, 20);
+  }
+  main {
+    width: 100%;
+    position: relative;
+  }
+  main .title {
+    margin: 5%;
+  }
+  main .title h1 {
+    font-size: 30px;
+  }
 
-     header{
-         width: 100%;
-         background-image: url(image/s3.jpg);
-      
-     }
-     header img{
-        display: none; 
-     }
-     header .container{
-         width: 80%;
-         margin: auto;
-     }
-     header .iteam h1{
-        display: none;
-     }
-     header #btn-qidir{
-         display: none;
-     }
-     header .p-teg{
-        display: none;
-    }
-     header .iteam {
-         position: absolute;
-         top: 5%;
-         right:25%;
-     }
-     header .iteam input{
-         padding: 5px 10px;
+  main #wrap {
+    width: 100%;
+    position: absolute;
+    top: 150px;
+  }
+  main #wrap p {
+    font-size: 12px;
+  }
 
-     }
-     header .iteam i{
-        opacity: 1;
-        position: absolute;
-        top: 7px;
-        left: 150px;
-        color:rgb(48, 20, 20);
-     }
-     main{
-         width: 100%;
-         position: relative;
-     }
-     main .title {
-         margin: 5%;
-     }
-     main .title h1{
-        font-size: 30px;
-    }
+  main .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3rem;
+    width: 80%;
+    height: auto;
+    position: relative;
+    top: 30vh;
+  }
+  main .container .box1 {
+    width: 80%;
+    margin: auto;
+    height: 80vh;
+    position: relative;
+  }
+  main .box1 img {
+    width: 82%;
+    height: 55%;
+    margin-left: 8%;
+  }
+  main .box1 span {
+    padding: 3% 0px;
+  }
+  main .box1 .div {
+    position: relative;
+    top: 8%;
+  }
+  #part {
+    width: 100%;
+    height: 30vh;
+    position: absolute;
+    top: 850vh;
+  }
+  #part img {
+    width: 100%;
+    height: auto;
+  }
+  #part p {
+    position: absolute;
+    top: 7vh;
+    font-size: 14px;
+  }
 
-    
-     main #wrap{
-         width: 100%;
-         position: absolute;
-         top:150px;
-     }
-     main #wrap p{
-        font-size: 12px;
-     }
-    
-        main .container {
-            display: grid;
-            grid-template-columns: repeat(1,1fr);
-            gap: 3rem;
-            width: 80%;
-            height: auto;
-            position: relative;
-            top: 30vh;
-           
-        }   
-        main .container .box1{
-            width: 80%;
-            margin: auto;
-            height: 80vh;
-            position: relative;
-        }
-        main .box1 img {
-            width: 82%;
-            height: 55%;
-            margin-left: 8%;
-        }
-        main .box1 span{
-            padding: 3%  0px;
-        }
-        main .box1 .div {
-            position:relative;
-            top: 8%;  
-        }
-        #part{
-            width: 100%;
-            height: 30vh;
-            position: absolute;
-            top: 850vh;
-        }
-        #part img{
-            width: 100%;
-            height: auto;
-        }
-        #part p{
-            position: absolute;
-            top: 7vh;
-            font-size: 14px;
-        }
+  #wrap1 {
+    position: relative;
+    top: 620vh;
+  }
+  #wrap1 p {
+    padding: 5px 20%;
+  }
+  .qism2-1 {
+    position: absolute;
+    top: 850vh;
+    width: 100%;
+    display: none;
+  }
+  .qism2-1 .left-1 p {
+    font-size: 14px;
+  }
 
-        #wrap1 {
-          position: relative;
-          top: 620vh;
-        }
-        #wrap1  p{
-            padding: 5px  20%;
-          }
-        .qism2-1 { 
-            position:absolute;
-            top: 850vh;
-            width: 100%;
-            display: none;
-          
-        }
-        .qism2-1 .left-1 p{
-            font-size: 14px;
+  #qism2 {
+    width: 100%;
+    position: relative;
+    top: 620vh;
+  }
+  #qism2 .qism0 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3rem;
+    width: 80%;
+    height: auto;
+  }
+  #qism2 .box1 {
+    width: 80%;
+    margin: auto;
+    height: 75vh;
+    position: relative;
+  }
+  #qism2 .box1 img {
+    width: 75%;
+    height: 55%;
+    margin: 5% 10%;
+  }
+  #qism2 .box1 span {
+    padding: 3% 0px;
+  }
 
-        }
+  #text {
+    width: 100%;
+    height: 130vh;
+    position: relative;
+    top: 640vh;
+  }
+  #wrap2 {
+    position: relative;
+    top: 650vh;
+  }
+  #wrap2 p {
+    padding: 5px 20%;
+  }
+  #kids {
+    width: 100%;
+    position: relative;
+    top: 670vh;
+  }
+  #kids .container {
+    width: 80%;
+    height: 70%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3rem;
+    margin-left: 50px;
+  }
+  #wrap3 {
+    position: relative;
+    top: 920vh;
+  }
+  #wrap3 p {
+    padding: 5px 20%;
+  }
 
-        #qism2{
-            width: 100%;
-            position: relative;
-            top: 620vh;
-        }
-        #qism2 .qism0{
-            display: grid;
-            grid-template-columns: repeat(1,1fr);
-            gap: 3rem;
-            width: 80%;
-            height: auto
-        }
-        #qism2 .box1{
-            width: 80%;
-            margin: auto;
-            height: 75vh;
-            position: relative;
-        }
-        #qism2 .box1 img {
-            width: 75%;
-            height: 55%;
-            margin: 5%  10%;
+  #img {
+    margin-top: 20%;
+    width: 100%;
+    position: relative;
+    top: 920vh;
+  }
+  #img .container {
+    width: 40%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
+  #img img {
+    width: 150px;
+    height: auto;
+  }
+  footer {
+    width: 100%;
+    position: relative;
+    top: 1000vh;
+  }
+  footer .iconc {
+    position: absolute;
+    left: 60%;
+    display: flex;
+  }
+  #col {
+    width: 100%;
+    position: relative;
+    top: 1010vh;
+  }
 
-        }
-        #qism2 .box1 span{
-            padding: 3%  0px;
-        }
-       
-        #text {
-            width: 100%;
-            height: 130vh;
-            position:relative;
-            top: 640vh;
-        }
-        #wrap2 {
-            position: relative;
-            top: 650vh;
-          }
-          #wrap2  p{
-              padding: 5px  20%;
-            }
-        #kids {
-            width: 100%;
-            position: relative;
-            top: 670vh;
-        }
-        #kids .container{
-            width: 80%;
-            height:70%;
-            display: grid;
-            grid-template-columns: repeat(1,1fr);
-            gap: 3rem;
-            margin-left: 50px;
-        }
-        #wrap3 {
-            position: relative;
-            top: 920vh;
-          }
-          #wrap3  p{
-              padding: 5px  20%;
-            }
+  #col .container {
+    width: 40%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5rem;
+    position: relative;
+  }
+  #col .col-1 h2 {
+    font-size: 20px;
+  }
+  #col .col-1 i {
+    font-size: 20px;
+  }
+  #col .col-2 {
+    width: 100%;
+    position: relative;
+    right: 10%;
+  }
+  #col .col-2 input {
+    padding: 3px 12%;
+  }
+  #col .col-2 h2 {
+    font-size: 20px;
+  }
+  #col .centerLine {
+    width: 100%;
+    position: absolute;
+    top: 150vh;
+  }
 
+  #payImage {
+    width: 100%;
+    position: relative;
+    top: 1120vh;
+  }
+  #payImage .content {
+    width: 20%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
 
-      #img {
-          margin-top: 20%;
-          width: 100%;
-          position: relative;
-          top: 920vh;
-      }
-      #img .container{
-          width: 40%;
-          margin: auto;
-          display: grid;
-          grid-template-columns: repeat(1,1fr);
-          gap: 2rem;
-      }
-      #img img{
-          width: 150px;
-          height: auto;
-      }
-      footer {
-        width: 100%;
-        position: relative;
-        top: 1000vh;
-      }
-      footer .iconc {
-         position: absolute;
-         left: 60%;
-         display: flex;
-      }
-      #col {
-          width: 100%;
-          position: relative;
-          top: 1010vh
-      }
-
-      #col .container{
-          width: 40%;
-          margin: auto;
-          display: grid;
-          grid-template-columns: repeat(1,1fr);
-          gap: 5rem;
-          position: relative;
-      }
-      #col .col-1 h2{
-        font-size: 20px;
-      }
-      #col .col-1 i{
-        font-size: 20px;
-      }
-      #col .col-2 {
-          width: 100%;
-          position: relative;
-          right: 10%
-      }
-      #col .col-2 input{
-          padding: 3px 12%;
-      }
-      #col .col-2 h2{
-          font-size: 20px;
-      }
-      #col .centerLine {
-          width: 100%;
-          position: absolute;
-          top: 150vh;
-      }
-
-      #payImage {
-          width: 100%;
-          position: relative;
-          top: 1120vh;
-      }
-      #payImage .content {
-          width: 20%;
-          margin: auto;
-          display: grid;
-          grid-template-columns: repeat(1,1fr);
-          gap: 2rem;
-      }
-
-
-
-      #accaunt{
-        width: 100%;
-        height: 100vh;
-        background-color: rgb(2, 2, 54);
-        position: absolute;
-        top: 0;
-        display: none;
-    }
-    #accaunt i{
-        font-size: 16px;
-        color: #fff;
-        position: absolute;
-        top: 5%;
-        left: 2%;
-    }
-    #accaunt .card{
-        width: 40%;
-        margin: auto;
-        align-items: center;
-        height: 50vh;
-        box-shadow: 10px 10px 20px 10px rgba(0,0,0,0.6);
-        border-radius: 20px;
-        background-color: rgb(44, 40, 59);
-        margin-top: 30%;
-    }
-    #accaunt .container{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        gap: 0.2rem;
-    }
-    #accaunt h2{
-        margin: 5%  auto;
-        font-size: 20px;
-        color: #fff;
-       
-    }
-    #accaunt label{
-        margin: 0 5%;
-        font-size: 14px;
-        color: #fff;
-    }
-    #accaunt input{
-        width: 80%;
-        padding: 5px;
-        margin: 0  8%;
-        border-radius: 5px;
-        opacity: 0.5;
-        background-color: rgb(116, 116, 236);
-        border: 2px solid #fff;
-    }
-    #accaunt a{
-        margin: 0 auto;
-        color: #fff;
-        font-size: 14px;
-    }
-    #accaunt a:hover{
-        font-size: 16px;
-    }
-    #accaunt .btn {
-        width: 50%;
-        margin: auto;
-        padding: 5px ;
-        background-color: rgb(13, 13, 15);
-        color: #fff;
-        font-size: 16px;
-        border-radius: 5px;
-    }
-    
+  #accaunt {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(2, 2, 54);
+    position: absolute;
+    top: 0;
+    display: none;
+  }
+  #accaunt i {
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    top: 5%;
+    left: 2%;
+  }
+  #accaunt .card {
+    width: 40%;
+    margin: auto;
+    align-items: center;
+    height: 50vh;
+    box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    background-color: rgb(44, 40, 59);
+    margin-top: 30%;
+  }
+  #accaunt .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0.2rem;
+  }
+  #accaunt h2 {
+    margin: 5% auto;
+    font-size: 20px;
+    color: #fff;
+  }
+  #accaunt label {
+    margin: 0 5%;
+    font-size: 14px;
+    color: #fff;
+  }
+  #accaunt input {
+    width: 80%;
+    padding: 5px;
+    margin: 0 8%;
+    border-radius: 5px;
+    opacity: 0.5;
+    background-color: rgb(116, 116, 236);
+    border: 2px solid #fff;
+  }
+  #accaunt a {
+    margin: 0 auto;
+    color: #fff;
+    font-size: 14px;
+  }
+  #accaunt a:hover {
+    font-size: 16px;
+  }
+  #accaunt .btn {
+    width: 50%;
+    margin: auto;
+    padding: 5px;
+    background-color: rgb(13, 13, 15);
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+  }
 }
 
-@media screen and (max-width:320px){
-   nav  #moon{
-       display: none;
-   }
+@media screen and (max-width: 320px) {
+  nav #moon {
+    display: none;
+  }
 
-    header{
-        width: 100%;
-        background-image: url(image/s3.jpg);
-     
-    }
-    header img{
-       display: none; 
-    }
-    header .container{
-        width: 80%;
-        margin: auto;
-    }
-    header .iteam h1{
-       display: none;
-    }
-    header #btn-qidir{
-        display: none;
-    }
-    header .p-teg{
-       display: none;
-   }
-    header .iteam {
-        position: absolute;
-        top: 5%;
-        right:20%;
-    }
-    header .iteam input{
-        width: 150%;
-    }
-    header .iteam i{
-       opacity: 1;
-       position: absolute;
-       top: 7px;
-       left: 100px;
-       color:rgb(48, 20, 20);
-    }
-   
-    main .container {
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        gap: 3rem;
-        width: 90%;
-    }   
-    main .container .box1{
-        width: 80%;
-        margin: auto;
-        height: 65vh;
-        position: relative;
-    }
-    main .box1 img {
-        width: 82%;
-        height: auto;
-        margin-left: 8%;
-    }
-    main .box1 span{
-        padding: 3%  0px;
-    }
-    main .box1 .div {
-        position:relative;
-        top: 8%;  
-    }
-   
+  header {
+    width: 100%;
+    background-image: url(image/s3.jpg);
+  }
+  header img {
+    display: none;
+  }
+  header .container {
+    width: 80%;
+    margin: auto;
+  }
+  header .iteam h1 {
+    display: none;
+  }
+  header #btn-qidir {
+    display: none;
+  }
+  header .p-teg {
+    display: none;
+  }
+  header .iteam {
+    position: absolute;
+    top: 5%;
+    right: 20%;
+  }
+  header .iteam input {
+    width: 150%;
+  }
+  header .iteam i {
+    opacity: 1;
+    position: absolute;
+    top: 7px;
+    left: 100px;
+    color: rgb(48, 20, 20);
+  }
 
-    #part{
-        width: 100%;
-        height: 30vh;
-        position: absolute;
-        top: 700vh;
-    }
-    #part img{
-        width: 100%;
-        height: auto;
-    }
-    #part p{
-        position: absolute;
-        top: 3vh;
-        font-size: 10px;
-    }
-    #qism2{
-        width: 100%;
-        position: relative;
-        top: 480vh;
-    }
-    #qism2 .qism0{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        gap: 3rem;
-        width: 90%;
-        height: 90vh;
-    }
-    #qism2 .box1{
-        width: 80%;
-        margin: auto;
-        height: 65vh;
-        position: relative;
-    }
-    #qism2 .box1 img {
-        width: 75%;
-        height:auto;
-        margin: 5%  10%;
-    }
-    #qism2 .box1 .btn{
-        padding: 8px 45px;
-    }
+  main .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3rem;
+    width: 90%;
+  }
+  main .container .box1 {
+    width: 80%;
+    margin: auto;
+    height: 65vh;
+    position: relative;
+  }
+  main .box1 img {
+    width: 82%;
+    height: auto;
+    margin-left: 8%;
+  }
+  main .box1 span {
+    padding: 3% 0px;
+  }
+  main .box1 .div {
+    position: relative;
+    top: 8%;
+  }
 
-    #text {
-        width: 100%;
-        height: 120vh;
-        position:relative;
-        top: 690vh;
-    }
-  
-    #text p{
-        font-size: 14px;
-    }
-    #kids {
-        width: 100%;
-        position: relative;
-        top: 700vh;
-        right: 10%;
-    }
-    #kids .container{
-        width: 90%;
-        height:70%;
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        gap: 3rem;
-        
-    }
+  #part {
+    width: 100%;
+    height: 30vh;
+    position: absolute;
+    top: 700vh;
+  }
+  #part img {
+    width: 100%;
+    height: auto;
+  }
+  #part p {
+    position: absolute;
+    top: 3vh;
+    font-size: 10px;
+  }
+  #qism2 {
+    width: 100%;
+    position: relative;
+    top: 480vh;
+  }
+  #qism2 .qism0 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3rem;
+    width: 90%;
+    height: 90vh;
+  }
+  #qism2 .box1 {
+    width: 80%;
+    margin: auto;
+    height: 65vh;
+    position: relative;
+  }
+  #qism2 .box1 img {
+    width: 75%;
+    height: auto;
+    margin: 5% 10%;
+  }
+  #qism2 .box1 .btn {
+    padding: 8px 45px;
+  }
 
-    #kids .box1 img{
-        width: 80%;
-        height: auto;
-    }
-    #kids .box1 .btn {
-        padding: 8px 45px;
-    }
+  #text {
+    width: 100%;
+    height: 120vh;
+    position: relative;
+    top: 690vh;
+  }
 
-    #img {
-        width: 100%;
-        position: relative;
-        top: 920vh;
-       
-    }
-    #img .container{
-        width: 40%;
-        margin: auto;
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        gap: 2rem;
-    }
-    #img img{
-        width: 100px;
-        height: auto;
-    }
-    footer {
-        width: 100%;
-        position: relative;
-        top: 1000vh;
-      }
-      footer .iconc {
-         position: absolute;
-         left: 60%;
-         display: flex;
-      }
-      footer img{
-          width: 40px;
-          height: auto;
-      }
-      
-      #col {
-        width: 100%;
-        position: relative;
-        top: 1020vh;
-        right: 10%;
-    }
-    #col .col-2 input{
-        padding: 3px 5%;
-    }
-    #col .centerLine {
-        width: 100%;
-        position: absolute;
-        top: 150vh;
-        left: 10%;
-    }
-    #payImage {
-        width: 100%;
-        position: relative;
-        top: 1130vh;
-    }
+  #text p {
+    font-size: 14px;
+  }
+  #kids {
+    width: 100%;
+    position: relative;
+    top: 700vh;
+    right: 10%;
+  }
+  #kids .container {
+    width: 90%;
+    height: 70%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3rem;
+  }
 
-    #accaunt{
-        width: 100%;
-        height: 100vh;
-        background-color: rgb(2, 2, 54);
-        position: absolute;
-        top: 0;
-        display: none;
-    }
-    #accaunt .card{
-        width: 50%;
-        margin: auto;
-        align-items: center;
-        height: 40vh;
-        box-shadow: 10px 10px 20px 10px rgba(0,0,0,0.6);
-        border-radius: 20px;
-        background-color: rgb(44, 40, 59);
-        margin-top: 45%;
-    }
-    #accaunt i{
-        font-size: 14px;
-        color: #fff;
-        position: absolute;
-        top: 5%;
-        left: 2%;
-    }
-    #accaunt h2{
-        margin: 5%  auto;
-        font-size: 16px;
-        color: #fff;
-    }
-    #accaunt label{
-        margin: 0 5%;
-        font-size: 12px;
-        color: #fff;
-    }
-    #accaunt input{
-        width: 80%;
-        padding: 3px;
-        margin: 0  8%;
-        border-radius: 5px;
-        opacity: 0.5;
-        background-color: rgb(116, 116, 236);
-        border: 2px solid #fff;
-    }
-    #accaunt a{
-        margin: 0 auto;
-        color: #fff;
-        font-size: 10px;
-    }
-    #accaunt .btn {
-        width: 50%;
-        margin: auto;
-        padding: 3px ;
-        background-color: rgb(13, 13, 15);
-        color: #fff;
-        font-size: 16px;
-        border-radius: 5px;
-    }
+  #kids .box1 img {
+    width: 80%;
+    height: auto;
+  }
+  #kids .box1 .btn {
+    padding: 8px 45px;
+  }
 
-        #buy-now-btn {
-            width: 100%;
-            height: 100vh;           
-        }
-        #buy-now-btn .container{
-            display: grid;
-            grid-template-columns: repeat(1,1fr);
-        }
-        #buy-now-btn i{
-            font-size: 20px;
-        }
+  #img {
+    width: 100%;
+    position: relative;
+    top: 920vh;
+  }
+  #img .container {
+    width: 40%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
+  #img img {
+    width: 100px;
+    height: auto;
+  }
+  footer {
+    width: 100%;
+    position: relative;
+    top: 1000vh;
+  }
+  footer .iconc {
+    position: absolute;
+    left: 60%;
+    display: flex;
+  }
+  footer img {
+    width: 40px;
+    height: auto;
+  }
 
-        #buy-now-btn img{
-            width: 150px;
-            height: auto;
-        }
-        #buy-now-btn .btn-color{
-            width: 90%;
-            height: 10%;
-        }
-        #buy-now-btn  .text h1{
-           font-size: 24px;
-        }
-    
+  #col {
+    width: 100%;
+    position: relative;
+    top: 1020vh;
+    right: 10%;
+  }
+  #col .col-2 input {
+    padding: 3px 5%;
+  }
+  #col .centerLine {
+    width: 100%;
+    position: absolute;
+    top: 150vh;
+    left: 10%;
+  }
+  #payImage {
+    width: 100%;
+    position: relative;
+    top: 1130vh;
+  }
 
+  #accaunt {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(2, 2, 54);
+    position: absolute;
+    top: 0;
+    display: none;
+  }
+  #accaunt .card {
+    width: 50%;
+    margin: auto;
+    align-items: center;
+    height: 40vh;
+    box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    background-color: rgb(44, 40, 59);
+    margin-top: 45%;
+  }
+  #accaunt i {
+    font-size: 14px;
+    color: #fff;
+    position: absolute;
+    top: 5%;
+    left: 2%;
+  }
+  #accaunt h2 {
+    margin: 5% auto;
+    font-size: 16px;
+    color: #fff;
+  }
+  #accaunt label {
+    margin: 0 5%;
+    font-size: 12px;
+    color: #fff;
+  }
+  #accaunt input {
+    width: 80%;
+    padding: 3px;
+    margin: 0 8%;
+    border-radius: 5px;
+    opacity: 0.5;
+    background-color: rgb(116, 116, 236);
+    border: 2px solid #fff;
+  }
+  #accaunt a {
+    margin: 0 auto;
+    color: #fff;
+    font-size: 10px;
+  }
+  #accaunt .btn {
+    width: 50%;
+    margin: auto;
+    padding: 3px;
+    background-color: rgb(13, 13, 15);
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+  }
 
-        #buy-now-btn  .text h4, p{
-            padding: 10px;
-        }
-        #buy-now-btn  .text .btn{
-           position: relative;
-           top: -10%;
-           left: -50%;
-           padding: 5px 35px;
-           
+  #buy-now-btn {
+    width: 100%;
+    height: 100vh;
+  }
+  #buy-now-btn .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #buy-now-btn i {
+    font-size: 20px;
+  }
 
-        }
+  #buy-now-btn img {
+    width: 150px;
+    height: auto;
+  }
+  #buy-now-btn .btn-color {
+    width: 90%;
+    height: 10%;
+  }
+  #buy-now-btn .text h1 {
+    font-size: 24px;
+  }
 
-        
-
-
-
+  #buy-now-btn .text h4,
+  p {
+    padding: 10px;
+  }
+  #buy-now-btn .text .btn {
+    position: relative;
+    top: -10%;
+    left: -50%;
+    padding: 5px 35px;
+  }
 }
