@@ -40,6 +40,12 @@
     height: 90vh;
     position: relative;
   }
+  header .pH1 {
+    width: 70%;
+    position: absolute;
+    top: 20vh;
+    left: 0;
+  }
   header .pH1 p {
     font-size: 16px;
     padding: 5% 0px;
