@@ -86,7 +86,7 @@
 
   #wrap1 {
     position: relative;
-    top: 330vh;
+    top: 270vh;
     margin-top: 5%;
   }
   #qism2 {
@@ -113,6 +113,10 @@
   #wrap2 {
     margin-top: 15%;
   }
+  #wrap2 {
+    position: relative;
+    top: 590vh;
+  }
   #kids-end {
     width: 100%;
     position: absolute;
@@ -127,6 +131,17 @@
   }
   #kids-end .container .box1 {
     height: 70vh;
+  }
+
+  #kids-end .box1 {
+    transform: translateX(200%);
+    transition: transform 0.4s ease;
+  }
+  #kida-end .box1:nth-of-type(even) {
+    transform: translateX(-200%);
+  }
+  #kids-end .box1.show {
+    transform: translateX(0);
   }
 
   footer {
