@@ -61,11 +61,12 @@
 
   #men {
     width: 100%;
-    margin: auto;
     position: relative;
+    margin-left: 5%;
   }
   #men .container {
-    margin-left: 10%;
+    width: 90%;
+    margin: auto;
     position: absolute;
     top: -560vh;
   }
@@ -86,23 +87,24 @@
 
   #wrap1 {
     position: relative;
-    top: 270vh;
+    top: 250vh;
     margin-top: 5%;
   }
   #qism2 {
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     position: absolute;
-    top: 450vh;
+    top: 430vh;
   }
-  #qism2 .box1 {
-    width: 70%;
-    height: 70vh;
+  #qism2 .qism0 {
+    width: 90%;
+    margin: auto;
+    height: 100vh;
   }
+
   #qism2 .qism0 img {
-    width: 70%;
-    margin: 15%;
-    height: auto;
+    width: 80%;
+    height: 45%;
   }
   #qism2 .box1 p,
   h3,
