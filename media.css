@@ -130,6 +130,18 @@
     position: relative;
     top: 30vh;
   }
+
+  main .box1 {
+    transform: translateX(200%);
+    transition: transform 0.4s ease;
+  }
+
+  main .box1:nth-of-type(even) {
+    transform: translateX(-200%);
+  }
+  main .box1.show {
+    transform: translateX(0);
+  }
   main .container .box1 {
     width: 80%;
     margin: auto;
