@@ -27,9 +27,10 @@
     font-size: 20px;
     color: rgb(243, 8, 20);
   }
+
   #menbtn {
     width: 100%;
-    height: 20vh;
+    height: 10vh;
     position: relative;
     top: -20vh;
   }
@@ -78,7 +79,7 @@
   }
   section .chenge i {
     position: absolute;
-    left: 55%;
+    left: 65%;
     border: 1px solid rgb(75, 10, 10);
     background-color: #fff;
   }
@@ -90,7 +91,7 @@
   #women {
     width: 45%;
     position: relative;
-    top: 15vh;
+    top: -20vh;
   }
   #women .liner-rad {
     border-radius: 30px 5px 30px 5px;
@@ -102,17 +103,27 @@
     color: #fff;
     text-align: center;
   }
+  #section-women {
+    position: relative;
+    top: -40vh;
+  }
+
   #kids {
     width: 45%;
     position: relative;
-    top: -10vh;
+    top: -60vh;
     left: 0;
+  }
+
+  #section-kids {
+    position: relative;
+    top: -80vh;
   }
 
   footer,
   #col {
     position: relative;
-    top: 5vh;
+    top: -80vh;
   }
 
   #col {
@@ -125,6 +136,6 @@
   }
   #payImage {
     position: relative;
-    top: 115vh;
+    top: 30vh;
   }
 }
