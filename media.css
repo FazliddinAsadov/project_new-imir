@@ -175,7 +175,7 @@
   }
   #part p {
     position: absolute;
-    top: 5vh;
+    top: 1vh;
     font-size: 10px;
   }
 
@@ -228,7 +228,7 @@
   }
   #qism2 .box1 img {
     width: 80%;
-    height: 45%;
+    height: 50%;
     margin: 5% 10%;
   }
   #qism2 .box1 span {
@@ -282,7 +282,7 @@
 
   #wrap3 {
     position: relative;
-    top: 830vh;
+    top: 820vh;
   }
   #wrap3 p {
     padding: 5px 20%;
@@ -291,7 +291,7 @@
   #img {
     width: 100%;
     position: relative;
-    top: 850vh;
+    top: 830vh;
   }
   #img .container {
     width: 40%;
@@ -307,26 +307,43 @@
   footer {
     width: 100%;
     position: relative;
-    top: 1000vh;
+    top: 900vh;
+  }
+  footer h2 {
+    width: 60%;
+    font-size: 18px;
+  }
+  footer p {
+    font-size: 14px;
   }
   footer .iconc {
     position: absolute;
     left: 60%;
     display: flex;
   }
+  footer .iconc img {
+    width: 45px;
+  }
   #col {
     width: 100%;
     position: relative;
-    top: 1010vh;
+    top: 910vh;
+    left: 0;
+  }
+
+  #col .col-1 img {
+    width: 200px;
+    height: auto;
   }
 
   #col .container {
-    width: 40%;
-    margin: auto;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 5rem;
     position: relative;
+  }
+  #col .col-1 p {
+    padding: 5%;
   }
   #col .col-1 h2 {
     font-size: 20px;
@@ -354,7 +371,7 @@
   #payImage {
     width: 100%;
     position: relative;
-    top: 1120vh;
+    top: 1020vh;
   }
   #payImage .content {
     width: 20%;
