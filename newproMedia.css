@@ -156,14 +156,14 @@
 
   footer {
     position: absolute;
-    top: 1070vh;
+    top: 1000vh;
   }
   #col {
     position: absolute;
-    top: 1110vh;
+    top: 1040vh;
   }
   #payImage {
     position: absolute;
-    top: 1270vh;
+    top: 1200vh;
   }
 }
