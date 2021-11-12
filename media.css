@@ -175,7 +175,7 @@
   }
   #part p {
     position: absolute;
-    top: 1vh;
+    top: 3vh;
     font-size: 10px;
   }
 
@@ -343,7 +343,7 @@
     position: relative;
   }
   #col .col-1 p {
-    padding: 5%;
+    padding: 2%;
   }
   #col .col-1 h2 {
     font-size: 20px;
