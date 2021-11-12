@@ -86,8 +86,8 @@
   }
   header .iteam {
     position: absolute;
-    top: 90%;
-    right: 25%;
+    top: 0%;
+    left: 0;
   }
   header .iteam input {
     padding: 5px 10px;
@@ -112,13 +112,13 @@
   }
 
   main #wrap {
-    width: 70%;
+    width: 50%;
     position: absolute;
     top: 150px;
-    left: 15%;
+    left: 25%;
   }
   main #wrap p {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   main .container {
@@ -133,12 +133,12 @@
   main .container .box1 {
     width: 80%;
     margin: auto;
-    height: 80vh;
+    height: 65vh;
     position: relative;
   }
   main .box1 img {
     width: 82%;
-    height: 55%;
+    height: 45%;
     margin-left: 8%;
   }
   main .box1 span {
