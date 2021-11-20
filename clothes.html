@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="media.css" />
     <link rel="stylesheet" href="newprostyle.css" />
     <link rel="stylesheet" href="clothesstyle.css" />
-
     <link rel="stylesheet" href="clothesMedia.css" />
   </head>
   <body>
@@ -824,30 +823,53 @@
     </div>
 
     <div id="accaunt">
-      <div class="card">
-        <div class="container">
-          <h2>Introduction</h2>
-          <label for="">Name</label>
-          <input type="text" placeholder="Name" />
-          <label for="">Email</label>
-          <input type="email" placeholder="Email" />
-          <label for="">Parol</label>
-          <input type="password" placeholder="Parol" />
-
-          <a href="">Create Account</a>
-
-          <button class="btn">Submit</button>
-        </div>
-      </div>
       <i
         class="fa fa-arrow-left"
         id="back"
         aria-hidden="true"
         style="cursor: pointer"
       ></i>
+      <div class="card">
+        <div class="container">
+          <h1>Instroduction</h1>
+          <form action="">
+            <div class="form-control">
+              <input type="text" required />
+              <label for="">Email</label>
+            </div>
+
+            <div class="form-control">
+              <input type="password" required />
+              <label for="">Password</label>
+            </div>
+
+            <button class="btn">Login</button>
+
+            <p class="text">Don't have an account ?<a href="">Register</a></p>
+          </form>
+        </div>
+      </div>
     </div>
 
     <script>
+      const labels = document.querySelectorAll(".form-control label");
+
+      labels.forEach((label) => {
+        label.innerHTML = label.innerText
+          .split("")
+          .map(
+            (letter, idx) =>
+              `<span style="transition-delay:${idx * 50}ms">${letter}</span>`
+          )
+          .join("");
+      });
+
+      const backs = document.getElementById("back");
+
+      backs.addEventListener("click", () => {
+        accaunts.classList.remove("active");
+      });
+
       const menLinks = document.querySelector(".menLink");
       const womenLinks = document.querySelector(".womenLink");
       const kidsLinks = document.querySelector(".kidsLink");
@@ -891,6 +913,24 @@
       acciconc.addEventListener("click", () => {
         accaunts.classList.add("active");
       });
+
+      backs.addEventListener("click", () => {
+        accaunts.classList.remove("active");
+      });
+
+      const labels = document.querySelectorAll(".form-control label");
+
+      labels.forEach((label) => {
+        label.innerHTML = label.innerText
+          .split("")
+          .map(
+            (letter, idx) =>
+              `<span style="transition-delay:${idx * 50}ms">${letter}</span>`
+          )
+          .join("");
+      });
+
+      const backs = document.getElementById("back");
 
       backs.addEventListener("click", () => {
         accaunts.classList.remove("active");

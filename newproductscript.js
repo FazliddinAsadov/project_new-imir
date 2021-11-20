@@ -61,5 +61,4 @@ function checkBoxes() {
     }
   });
 }
-
 //? scroll part end

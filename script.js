@@ -1,3 +1,24 @@
+const labels = document.querySelectorAll(".form-control label");
+
+labels.forEach((label) => {
+  label.innerHTML = label.innerText
+    .split("")
+    .map(
+      (letter, idx) =>
+        `<span style="transition-delay:${idx * 50}ms">${letter}</span>`
+    )
+    .join("");
+});
+
+const backs = document.getElementById("back");
+
+backs.addEventListener("click", () => {
+  accaunts.classList.remove("active");
+});
+
+
+
+
 const menLinks = document.querySelector(".brendLink");
 const womenLinks = document.querySelector(".popularLink");
 const kidsLinks = document.querySelector(".womenLink");
@@ -49,16 +70,12 @@ iconc.addEventListener("click", () => {
 
 const acciconc = document.getElementById("ac-iconc");
 const accaunts = document.getElementById("accaunt");
-const backs = document.getElementById("back");
+
 const moon0 = document.getElementById("moon");
 const bodys = document.getElementById("body");
 
 acciconc.addEventListener("click", () => {
   accaunts.classList.add("active");
-});
-
-backs.addEventListener("click", () => {
-  accaunts.classList.remove("active");
 });
 
 moon0.addEventListener("click", () => {
